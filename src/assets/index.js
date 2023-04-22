@@ -20,11 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Arduino from "./tech/Arduino.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import baabtra from "./company/baabtra.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -51,10 +53,12 @@ export {
   redux,
   tailwind,
   typescript,
+  Arduino,
   threejs,
   meta,
   shopify,
   starbucks,
+  baabtra,
   tesla,
   carrent,
   jobit,
