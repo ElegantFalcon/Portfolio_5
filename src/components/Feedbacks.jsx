@@ -1,8 +1,8 @@
-import React from 'react'
+import { motion } from 'framer-motion' ;
 
 const Feedbacks = () => {
   return (
-    <div>Feedbacks</div>
+    <div></div>
   )
 }
 
