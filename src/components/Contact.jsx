@@ -17,9 +17,49 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const { target } = e;
+    const { name, value } = target;
 
+    setForm({
+      ...form,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+
+    emailjs.send('service_klpyarp',
+    'template_lrpydq5',
+    {
+      from_name: form.name,
+      to_name: 'Nikhil M',
+      from_email : form.email,
+      to_email: 'nikhil.mecheril@gmail.com',
+      message : form.message,
+    } ,
+    '2z3Q7-EZpUJMYLuXu'
+    ) 
+    .then(() => {
+      setLoading(false);
+      alert('Thank you for your message ! I will get back to you as soon as possible');
+      setForm({
+        name : '',
+        email: '',
+        message : '',
+    })
+    }, (error)=>{
+      setLoading(false)
+      console.log(error);
+      alert('Whoops! Something went wrong.')
+    })
+  }
+//template_lrpydq5
+// service id service_klpyarp
+//2z3Q7-EZpUJMYLuXu
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -48,7 +88,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">Your Email</span>
             <input 
             type = "email"
             name="email"
