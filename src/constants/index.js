@@ -176,7 +176,7 @@ import {
       source_code_link: "",
     },
     {
-      name: "Coming Soon",
+      name: "Coming Soon!",
       description:
         "",
       tags: [

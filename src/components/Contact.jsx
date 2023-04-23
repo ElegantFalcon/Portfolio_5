@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react' ;
+import React, { useState, useRef } from 'react' ;
 import { motion } from 'framer-motion' ; 
 import emailjs from '@emailjs/browser';
 
@@ -10,9 +10,9 @@ import { slideIn } from '../utils/motion';
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name : '',
-    email : '',
-    message : '',
+    name : "",
+    email : "",
+    message : "",
 
   });
   const [loading, setLoading] = useState(false);
@@ -32,7 +32,9 @@ const Contact = () => {
     setLoading(true);
 
 
-    emailjs.send('service_klpyarp',
+    emailjs
+    .send(
+      'service_klpyarp',
     'template_lrpydq5',
     {
       from_name: form.name,
