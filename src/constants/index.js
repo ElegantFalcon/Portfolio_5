@@ -116,7 +116,7 @@ import {
       company_name: "Baabtra.com",
       icon: baabtra,
       iconBg: "white",
-      date: "August 2020 - November 2020",
+      date: "August 2022 - November 2022",
       points: [
         "Developing and maintaining web applications using Django and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
