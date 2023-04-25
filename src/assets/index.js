@@ -31,6 +31,7 @@ import baabtra from "./company/baabtra.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import untangled from "./untangled.png"
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  untangled,
 };

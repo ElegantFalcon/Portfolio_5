@@ -25,6 +25,7 @@ import {
     Arduino,
     tripguide,
     threejs,
+    untangled,
   } from "../assets";
   
   export const navLinks = [
@@ -133,25 +134,25 @@ import {
   
   const projects = [
     {
-      name: "Coming Soon!",
+      name: "Untangled",
       description:
-        "",
+        "Untangled is a mental health website that offers a depression test, locates nearby therapists and doctors, and provides resources for mental health and well-being. It aims to provide comprehensive support for individuals with depression.",
       tags: [
         {
-          name: "react",
+          name: "Rasa Framework",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "NodeJS",
           color: "pink-text-gradient",
         },
       ],
       
-      image: "",
+      image: untangled ,
       source_code_link: "",
     },
     {
