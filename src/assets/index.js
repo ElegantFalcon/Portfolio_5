@@ -21,6 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import Arduino from "./tech/Arduino.png";
+import django from "./tech/django.png"
+import mysql from "./tech/mysql.png"
+import postgre from "./tech/postgre.jpg"
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -55,6 +59,9 @@ export {
   tailwind,
   typescript,
   Arduino,
+  django,
+  mysql,
+  postgre,
   threejs,
   meta,
   shopify,
@@ -65,4 +72,5 @@ export {
   jobit,
   tripguide,
   untangled,
+
 };

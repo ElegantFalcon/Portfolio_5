@@ -23,6 +23,9 @@ import {
     jobit,
     baabtra,
     Arduino,
+    django,
+    mysql,
+    postgre,
     tripguide,
     threejs,
     untangled,
@@ -100,6 +103,18 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "Django",
+      icon: django,
+    },
+    {
+      name: "Mysql",
+      icon: mysql,
+    },
+    {
+      name: "PostgreSql",
+      icon: postgre,
     },
     {
       name: "Arduino",
