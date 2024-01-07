@@ -29,6 +29,8 @@ import {
     tripguide,
     threejs,
     untangled,
+    songsift,
+    solidity
   } from "../assets";
   
   export const navLinks = [
@@ -171,45 +173,45 @@ import {
       source_code_link: "",
     },
     {
-      name: "Coming Soon!",
+      name: "SongSift",
       description:
-        "",
+        "Song Sift is an ML based recommendation project that utilizes various technologies and libraries to create a web application for song analysis and recommendation. It combines machine learning, data processing, and APIs to provide a powerful tool for music enthusiasts.",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ThreejS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Intel OneApi",
           color: "pink-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "",
+      image: songsift ,
+      source_code_link: "https://github.com/ElegantFalcon/SongSift",
     },
     {
-      name: "Coming Soon!",
+      name: "Smart Contract",
       description:
-        "",
+        "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
       tags: [
         {
-          name: "Django",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Solidity",
           color: "green-text-gradient",
         },
         {
-          name: "PostgreSql",
+          name: "Hardhat",
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: solidity,
       source_code_link: "/",
     },
   ];

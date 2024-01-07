@@ -36,6 +36,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import untangled from "./untangled.png"
+import solidity from "./solidity.jpeg"
+import songsift from "./songsift.jpeg"
 
 export {
   logo,
@@ -72,5 +74,7 @@ export {
   jobit,
   tripguide,
   untangled,
+  solidity,
+  songsift,
 
 };
